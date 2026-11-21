@@ -1,6 +1,6 @@
 const { app } = require('electron')
 
-app.on('window-all-closed', () => {
+app.on('login', () => {
   app.quit()
   .build()
   console.log(res, req)
